@@ -20,7 +20,7 @@ The following tools will be required:
 
 ## The plan
 
-1. Get my Arduino programmable on whatever god forsaken operating system I'm using today
+1. **DONE** Get my Arduino programmable on whatever god forsaken operating system I'm using today.
 2. Get my Arduino operating an LED or two. I'll probably go for basic LEDs here, although something overly programmable could be fun.
 3. Keep track of time with a time keeping module. I don't think Arduino's basic clock will be able to track dates in any particularly useful way. Although, it could be a fun maths problem.
 4. Actually find out what day my bins are meant to go out on. This has proven a challenging task thus far.
