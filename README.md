@@ -27,3 +27,13 @@ The following tools will be required:
 5. Find a design for a small bin that will hold the Arduino and all its attachements.
 6. Get said bin printed by my beautiful and loving wife.
 
+# Notes
+
+## 2025-05-16
+
+With a basic circuit done up, I just need to determine a suitable way to keep track of time. I see a few options:
+
+- Use the built in millis and try to keep track of a 7 day cycle to switch which LED is on. I could start the cycle from power on, then use a button to flip which bin LED should be lit up. As long as the right light is on on a Tuesday, it doesn't really matter the rest of the time what's on. Millis overflows after 50 days, so some appropriate handling will need to be considered there.
+- Buy an RTC module and use a proper time keeper. This would require some mechanism for setting the date, but a control panel feels a bit much.
+- I have an ESP8266 lying around. I might be able to use that to run NTP, which means no configuring dates, just setting wifi and appropriate weeks.
+
