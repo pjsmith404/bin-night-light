@@ -27,22 +27,3 @@ The following tools will be required:
 5. Find a design for a small bin that will hold the Arduino and all its attachements.
 6. Get said bin printed by my beautiful and loving wife.
 
-# The Schematic
-
-You'll just have to trust me that they're LEDs
-
-┌───────────────┐                         
-│               │                         
-│             12┼───────────────────────┐ 
-│             11├─────────────────┐     │ 
-│               │                 │     │ 
-│               │                ┌┴┐   ┌┴┐
-│               │                │ │   │ │
-│               │                │ │   │ │
-│               │                └┬┘   └┬┘
-│               │                ─┴─   ─┴─
-│               │                \ /   \ /
-│      GND      │                ─┬─   ─┬─
-└───────┬───────┘                 │     │ 
-        │                         │     │ 
-        └─────────────────────────┴─────┘ 
