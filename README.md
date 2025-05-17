@@ -29,6 +29,12 @@ The following tools will be required:
 
 # Notes
 
+## 2025-05-17
+
+I've introduced a switcher function that will just test one pin's state and swap the two LEDs around based on that.
+
+For timekeeping, I've introduced a delay constant that I'll just crank up to be 7 days in milliseconds or something like that. Because calendars, time and an arduino's ability to track time are all pretty loose, this will not remain accurate. My lazy solution is some combination of power cycling and a switcher to swap the active light. I'll develop on that basis and then consider either a RTC or NTP to get more precise timekeeping. The timekeeping will likely just be determined by whether I think I should spend more time on it.
+
 ## 2025-05-16
 
 With a basic circuit done up, I just need to determine a suitable way to keep track of time. I see a few options:
