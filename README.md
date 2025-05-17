@@ -22,7 +22,8 @@ The following tools will be required:
 
 1. **DONE** Get my Arduino programmable on whatever god forsaken operating system I'm using today.
 2. **DONE** Get my Arduino operating an LED or two. I'll probably go for basic LEDs here, although something overly programmable could be fun.
-3. Keep track of time with a time keeping module. I don't think Arduino's basic clock will be able to track dates in any particularly useful way. Although, it could be a fun maths problem.
+3. **DONE** Keep track of time with a time keeping module. I don't think Arduino's basic clock will be able to track dates in any particularly useful way. Although, it could be a fun maths problem.
+    1. I instead opted for using the Arduino's internal clock and just tracking a 7 day cycle. I expect this will fall apart under long term use.
 4. Actually find out what day my bins are meant to go out on. This has proven a challenging task thus far.
 5. Find a design for a small bin that will hold the Arduino and all its attachements.
 6. Get said bin printed by my beautiful and loving wife.
@@ -34,6 +35,8 @@ The following tools will be required:
 I've introduced a switcher function that will just test one pin's state and swap the two LEDs around based on that.
 
 For timekeeping, I've introduced a delay constant that I'll just crank up to be 7 days in milliseconds or something like that. Because calendars, time and an arduino's ability to track time are all pretty loose, this will not remain accurate. My lazy solution is some combination of power cycling and a switcher to swap the active light. I'll develop on that basis and then consider either a RTC or NTP to get more precise timekeeping. The timekeeping will likely just be determined by whether I think I should spend more time on it.
+
+I've setup a button that can be used to switch the current light that is on. This will serve as a setting function on startup. That way you can just apply power when ready, swap to the correct light, and let it go.
 
 ## 2025-05-16
 
