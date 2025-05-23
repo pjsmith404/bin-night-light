@@ -3,7 +3,7 @@ const int LED_YELLOW = 11;
 const int BUTTON = 7;
 
 // This'll be the 7 days between bin nights, but can be shrunk for testing.
-const long DELAY_INTERVAL = 10000;
+const long DELAY_INTERVAL = 604800000;
 
 // Initialise button state for tracking in the loop.
 int buttonState = 0;
